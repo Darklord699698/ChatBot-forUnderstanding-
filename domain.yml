@@ -1,0 +1,23 @@
+intents:
+  - greet
+  - goodbye
+  - inform
+  - ask_weather
+
+entities:
+  - location
+
+slots:
+  location:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: location
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+  utter_goodbye:
+    - text: "Goodbye! Have a great day."
+  utter_ask_weather:
+    - text: "Please provide me with a location to get the weather details."

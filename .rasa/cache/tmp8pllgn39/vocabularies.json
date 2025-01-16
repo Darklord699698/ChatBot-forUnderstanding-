@@ -1,0 +1,43 @@
+{
+  "text": {
+    "hello": 2,
+    "hi": 4,
+    "hey": 3,
+    "goodbye": 1,
+    "see": 8,
+    "you": 13,
+    "bye": 0,
+    "what": 12,
+    "s": 7,
+    "the": 10,
+    "weather": 11,
+    "like": 5,
+    "tell": 9,
+    "me": 6
+  },
+  "intent": {
+    "greet": 2,
+    "goodbye": 1,
+    "ask_weather": 0
+  },
+  "response": null,
+  "action_name": {
+    "action_listen": 6,
+    "action_restart": 7,
+    "action_session_start": 9,
+    "action_default_fallback": 4,
+    "action_deactivate_loop": 1,
+    "action_revert_fallback_events": 8,
+    "action_default_ask_affirmation": 2,
+    "action_default_ask_rephrase": 3,
+    "action_two_stage_fallback": 10,
+    "action_unlikely_intent": 11,
+    "action_back": 0,
+    "action_extract_slots": 5,
+    "utter_ask_weather": 12,
+    "utter_goodbye": 13,
+    "utter_greet": 14
+  },
+  "action_text": null,
+  "intent_response_key": null
+}

@@ -1,0 +1,6 @@
+version: "3.0"
+rules:
+  - rule: greet rule
+    steps:
+      - intent: greet
+      - action: utter_greet
